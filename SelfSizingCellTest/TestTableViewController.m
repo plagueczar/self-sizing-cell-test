@@ -2,7 +2,7 @@
 //  TestTableViewController.m
 //  SelfSizingCellTest
 //
-//  Created by Benjamin Frost on 20/01/2015.
+//  Created by Plagueczar on 20/01/2015.
 //  Copyright (c) 2015 Thirty4. All rights reserved.
 //
 
@@ -37,6 +37,14 @@
     
     if (!error) {
         self.contents = [fileContents componentsSeparatedByString:@"."];
+        
+        NSMutableArray *stripped = [[NSMutableArray alloc] init];
+        for (NSString *string in self.contents) {
+            [stripped addObject:[[string stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]] stringByAppendingString:@"."]];
+        }
+        
+        self.contents = stripped;
+        
     } else {
         self.contents = [[NSArray alloc] init];
     }
