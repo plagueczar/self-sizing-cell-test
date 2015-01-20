@@ -12,7 +12,9 @@
 #import "SwitchTableViewCell.h"
 #import "SingleLabelTableViewCell.h"
 #import "DoubleLabelTableViewCell.h"
-
+#import "HorizontalDoubleTableViewCell.h"
+#import "SwitchInViewTableViewCell.h"
+#import "DoubleTextSwitchInViewTableViewCell.h"
 
 @interface CellSelectionTableViewController ()
 
@@ -26,7 +28,10 @@
     self.cellTypes = @[
                        [SingleLabelTableViewCell class],
                        [DoubleLabelTableViewCell class],
-                       [SwitchTableViewCell class]
+                       [SwitchTableViewCell class],
+                       [HorizontalDoubleTableViewCell class],
+                       [SwitchInViewTableViewCell class],
+                       [DoubleTextSwitchInViewTableViewCell class]
                        ];
 }
 

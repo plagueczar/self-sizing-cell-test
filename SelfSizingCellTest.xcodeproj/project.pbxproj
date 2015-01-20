@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		646FF7AB1A6F0E2A0042E382 /* HorizontalDoubleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 646FF7A91A6F0E2A0042E382 /* HorizontalDoubleTableViewCell.m */; };
+		646FF7AC1A6F0E2A0042E382 /* HorizontalDoubleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646FF7AA1A6F0E2A0042E382 /* HorizontalDoubleTableViewCell.xib */; };
+		646FF7B01A6F0F9F0042E382 /* SwitchInViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 646FF7AE1A6F0F9F0042E382 /* SwitchInViewTableViewCell.m */; };
+		646FF7B11A6F0F9F0042E382 /* SwitchInViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646FF7AF1A6F0F9F0042E382 /* SwitchInViewTableViewCell.xib */; };
+		646FF7B51A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 646FF7B31A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.m */; };
+		646FF7B61A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646FF7B41A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.xib */; };
 		649EA1E71A6E2F6400F93E90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EA1E61A6E2F6400F93E90 /* main.m */; };
 		649EA1EA1A6E2F6400F93E90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EA1E91A6E2F6400F93E90 /* AppDelegate.m */; };
 		649EA1ED1A6E2F6400F93E90 /* SelfSizingCellTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 649EA1EB1A6E2F6400F93E90 /* SelfSizingCellTest.xcdatamodeld */; };
@@ -37,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		646FF7A81A6F0E2A0042E382 /* HorizontalDoubleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalDoubleTableViewCell.h; sourceTree = "<group>"; };
+		646FF7A91A6F0E2A0042E382 /* HorizontalDoubleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalDoubleTableViewCell.m; sourceTree = "<group>"; };
+		646FF7AA1A6F0E2A0042E382 /* HorizontalDoubleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorizontalDoubleTableViewCell.xib; sourceTree = "<group>"; };
+		646FF7AD1A6F0F9F0042E382 /* SwitchInViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchInViewTableViewCell.h; sourceTree = "<group>"; };
+		646FF7AE1A6F0F9F0042E382 /* SwitchInViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchInViewTableViewCell.m; sourceTree = "<group>"; };
+		646FF7AF1A6F0F9F0042E382 /* SwitchInViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchInViewTableViewCell.xib; sourceTree = "<group>"; };
+		646FF7B21A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTextSwitchInViewTableViewCell.h; sourceTree = "<group>"; };
+		646FF7B31A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTextSwitchInViewTableViewCell.m; sourceTree = "<group>"; };
+		646FF7B41A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoubleTextSwitchInViewTableViewCell.xib; sourceTree = "<group>"; };
 		649EA1E11A6E2F6400F93E90 /* SelfSizingCellTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSizingCellTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		649EA1E51A6E2F6400F93E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		649EA1E61A6E2F6400F93E90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -165,6 +180,15 @@
 				649EA2241A6E379400F93E90 /* DoubleLabelTableViewCell.h */,
 				649EA2251A6E379400F93E90 /* DoubleLabelTableViewCell.m */,
 				649EA2261A6E379400F93E90 /* DoubleLabelTableViewCell.xib */,
+				646FF7A81A6F0E2A0042E382 /* HorizontalDoubleTableViewCell.h */,
+				646FF7A91A6F0E2A0042E382 /* HorizontalDoubleTableViewCell.m */,
+				646FF7AA1A6F0E2A0042E382 /* HorizontalDoubleTableViewCell.xib */,
+				646FF7AD1A6F0F9F0042E382 /* SwitchInViewTableViewCell.h */,
+				646FF7AE1A6F0F9F0042E382 /* SwitchInViewTableViewCell.m */,
+				646FF7AF1A6F0F9F0042E382 /* SwitchInViewTableViewCell.xib */,
+				646FF7B21A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.h */,
+				646FF7B31A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.m */,
+				646FF7B41A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -252,9 +276,12 @@
 				649EA2281A6E379400F93E90 /* DoubleLabelTableViewCell.xib in Resources */,
 				649EA2161A6E30D000F93E90 /* lorem.txt in Resources */,
 				649EA1F31A6E2F6400F93E90 /* Main.storyboard in Resources */,
+				646FF7B61A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.xib in Resources */,
 				649EA2111A6E2F9A00F93E90 /* SwitchTableViewCell.xib in Resources */,
 				649EA1F81A6E2F6400F93E90 /* LaunchScreen.xib in Resources */,
 				649EA21B1A6E32D600F93E90 /* SingleLabelTableViewCell.xib in Resources */,
+				646FF7AC1A6F0E2A0042E382 /* HorizontalDoubleTableViewCell.xib in Resources */,
+				646FF7B11A6F0F9F0042E382 /* SwitchInViewTableViewCell.xib in Resources */,
 				649EA1F51A6E2F6400F93E90 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +302,8 @@
 			files = (
 				649EA2271A6E379400F93E90 /* DoubleLabelTableViewCell.m in Sources */,
 				649EA2101A6E2F9A00F93E90 /* SwitchTableViewCell.m in Sources */,
+				646FF7B01A6F0F9F0042E382 /* SwitchInViewTableViewCell.m in Sources */,
+				646FF7AB1A6F0E2A0042E382 /* HorizontalDoubleTableViewCell.m in Sources */,
 				649EA1EA1A6E2F6400F93E90 /* AppDelegate.m in Sources */,
 				649EA2221A6E336500F93E90 /* CellSelectionTableViewController.m in Sources */,
 				649EA1ED1A6E2F6400F93E90 /* SelfSizingCellTest.xcdatamodeld in Sources */,
@@ -282,6 +311,7 @@
 				649EA1F01A6E2F6400F93E90 /* ViewController.m in Sources */,
 				649EA1E71A6E2F6400F93E90 /* main.m in Sources */,
 				649EA21A1A6E32D600F93E90 /* SingleLabelTableViewCell.m in Sources */,
+				646FF7B51A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +504,7 @@
 				649EA2091A6E2F6400F93E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		649EA20A1A6E2F6400F93E90 /* Build configuration list for PBXNativeTarget "SelfSizingCellTestTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +513,7 @@
 				649EA20C1A6E2F6400F93E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
