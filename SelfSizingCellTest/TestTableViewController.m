@@ -32,7 +32,12 @@
     [self.tableView registerNib:nib
          forCellReuseIdentifier:[self cellIdentifier]];
     
-    self.tableView.estimatedRowHeight = 44;
+    
+    // Uncommenting this seems to cause the cells to be poorly
+    // sized until they're refreshed.
+    
+//    self.tableView.estimatedRowHeight = 44;
+    
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     
     if (!error) {
@@ -48,6 +53,10 @@
     } else {
         self.contents = [[NSArray alloc] init];
     }
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -71,13 +80,16 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    id<TestableCell> cell = [self.tableView dequeueReusableCellWithIdentifier:[self cellIdentifier]
+    UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:[self cellIdentifier]
                                                                  forIndexPath:indexPath];
     
-    [cell configureCell:self.contents
-              indexPath:indexPath];
+    if ([cell respondsToSelector:@selector(configureCell:indexPath:)]) {
+        [(id<TestableCell>)cell configureCell:self.contents
+                                    indexPath:indexPath];
+    }
     
-    return (UITableViewCell *)cell;
+    
+    return cell;
 }
 
 
