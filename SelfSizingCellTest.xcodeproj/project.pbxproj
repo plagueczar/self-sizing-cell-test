@@ -15,6 +15,15 @@
 		649EA1F51A6E2F6400F93E90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649EA1F41A6E2F6400F93E90 /* Images.xcassets */; };
 		649EA1F81A6E2F6400F93E90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649EA1F61A6E2F6400F93E90 /* LaunchScreen.xib */; };
 		649EA2041A6E2F6400F93E90 /* SelfSizingCellTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EA2031A6E2F6400F93E90 /* SelfSizingCellTestTests.m */; };
+		649EA2101A6E2F9A00F93E90 /* SwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EA20E1A6E2F9A00F93E90 /* SwitchTableViewCell.m */; };
+		649EA2111A6E2F9A00F93E90 /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649EA20F1A6E2F9A00F93E90 /* SwitchTableViewCell.xib */; };
+		649EA2141A6E308A00F93E90 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EA2131A6E308A00F93E90 /* TestTableViewController.m */; };
+		649EA2161A6E30D000F93E90 /* lorem.txt in Resources */ = {isa = PBXBuildFile; fileRef = 649EA2151A6E30D000F93E90 /* lorem.txt */; };
+		649EA21A1A6E32D600F93E90 /* SingleLabelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EA2181A6E32D600F93E90 /* SingleLabelTableViewCell.m */; };
+		649EA21B1A6E32D600F93E90 /* SingleLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649EA2191A6E32D600F93E90 /* SingleLabelTableViewCell.xib */; };
+		649EA2221A6E336500F93E90 /* CellSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EA2211A6E336500F93E90 /* CellSelectionTableViewController.m */; };
+		649EA2271A6E379400F93E90 /* DoubleLabelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EA2251A6E379400F93E90 /* DoubleLabelTableViewCell.m */; };
+		649EA2281A6E379400F93E90 /* DoubleLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649EA2261A6E379400F93E90 /* DoubleLabelTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +51,21 @@
 		649EA1FD1A6E2F6400F93E90 /* SelfSizingCellTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfSizingCellTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		649EA2021A6E2F6400F93E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		649EA2031A6E2F6400F93E90 /* SelfSizingCellTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfSizingCellTestTests.m; sourceTree = "<group>"; };
+		649EA20D1A6E2F9A00F93E90 /* SwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchTableViewCell.h; sourceTree = "<group>"; };
+		649EA20E1A6E2F9A00F93E90 /* SwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchTableViewCell.m; sourceTree = "<group>"; };
+		649EA20F1A6E2F9A00F93E90 /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
+		649EA2121A6E308A00F93E90 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		649EA2131A6E308A00F93E90 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		649EA2151A6E30D000F93E90 /* lorem.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lorem.txt; sourceTree = "<group>"; };
+		649EA2171A6E32D600F93E90 /* SingleLabelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLabelTableViewCell.h; sourceTree = "<group>"; };
+		649EA2181A6E32D600F93E90 /* SingleLabelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleLabelTableViewCell.m; sourceTree = "<group>"; };
+		649EA2191A6E32D600F93E90 /* SingleLabelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleLabelTableViewCell.xib; sourceTree = "<group>"; };
+		649EA2201A6E336500F93E90 /* CellSelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellSelectionTableViewController.h; sourceTree = "<group>"; };
+		649EA2211A6E336500F93E90 /* CellSelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellSelectionTableViewController.m; sourceTree = "<group>"; };
+		649EA2231A6E354100F93E90 /* TestableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestableCell.h; sourceTree = "<group>"; };
+		649EA2241A6E379400F93E90 /* DoubleLabelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleLabelTableViewCell.h; sourceTree = "<group>"; };
+		649EA2251A6E379400F93E90 /* DoubleLabelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleLabelTableViewCell.m; sourceTree = "<group>"; };
+		649EA2261A6E379400F93E90 /* DoubleLabelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoubleLabelTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +107,11 @@
 		649EA1E31A6E2F6400F93E90 /* SelfSizingCellTest */ = {
 			isa = PBXGroup;
 			children = (
+				649EA21C1A6E32DB00F93E90 /* Cells */,
+				649EA2121A6E308A00F93E90 /* TestTableViewController.h */,
+				649EA2131A6E308A00F93E90 /* TestTableViewController.m */,
+				649EA2201A6E336500F93E90 /* CellSelectionTableViewController.h */,
+				649EA2211A6E336500F93E90 /* CellSelectionTableViewController.m */,
 				649EA1E81A6E2F6400F93E90 /* AppDelegate.h */,
 				649EA1E91A6E2F6400F93E90 /* AppDelegate.m */,
 				649EA1EE1A6E2F6400F93E90 /* ViewController.h */,
@@ -101,6 +130,7 @@
 			children = (
 				649EA1E51A6E2F6400F93E90 /* Info.plist */,
 				649EA1E61A6E2F6400F93E90 /* main.m */,
+				649EA2151A6E30D000F93E90 /* lorem.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -120,6 +150,23 @@
 				649EA2021A6E2F6400F93E90 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		649EA21C1A6E32DB00F93E90 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				649EA2231A6E354100F93E90 /* TestableCell.h */,
+				649EA20D1A6E2F9A00F93E90 /* SwitchTableViewCell.h */,
+				649EA20E1A6E2F9A00F93E90 /* SwitchTableViewCell.m */,
+				649EA20F1A6E2F9A00F93E90 /* SwitchTableViewCell.xib */,
+				649EA2171A6E32D600F93E90 /* SingleLabelTableViewCell.h */,
+				649EA2181A6E32D600F93E90 /* SingleLabelTableViewCell.m */,
+				649EA2191A6E32D600F93E90 /* SingleLabelTableViewCell.xib */,
+				649EA2241A6E379400F93E90 /* DoubleLabelTableViewCell.h */,
+				649EA2251A6E379400F93E90 /* DoubleLabelTableViewCell.m */,
+				649EA2261A6E379400F93E90 /* DoubleLabelTableViewCell.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +249,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649EA2281A6E379400F93E90 /* DoubleLabelTableViewCell.xib in Resources */,
+				649EA2161A6E30D000F93E90 /* lorem.txt in Resources */,
 				649EA1F31A6E2F6400F93E90 /* Main.storyboard in Resources */,
+				649EA2111A6E2F9A00F93E90 /* SwitchTableViewCell.xib in Resources */,
 				649EA1F81A6E2F6400F93E90 /* LaunchScreen.xib in Resources */,
+				649EA21B1A6E32D600F93E90 /* SingleLabelTableViewCell.xib in Resources */,
 				649EA1F51A6E2F6400F93E90 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,10 +273,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649EA2271A6E379400F93E90 /* DoubleLabelTableViewCell.m in Sources */,
+				649EA2101A6E2F9A00F93E90 /* SwitchTableViewCell.m in Sources */,
 				649EA1EA1A6E2F6400F93E90 /* AppDelegate.m in Sources */,
+				649EA2221A6E336500F93E90 /* CellSelectionTableViewController.m in Sources */,
 				649EA1ED1A6E2F6400F93E90 /* SelfSizingCellTest.xcdatamodeld in Sources */,
+				649EA2141A6E308A00F93E90 /* TestTableViewController.m in Sources */,
 				649EA1F01A6E2F6400F93E90 /* ViewController.m in Sources */,
 				649EA1E71A6E2F6400F93E90 /* main.m in Sources */,
+				649EA21A1A6E32D600F93E90 /* SingleLabelTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
