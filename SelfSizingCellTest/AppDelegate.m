@@ -127,4 +127,33 @@
     }
 }
 
+
++ (NSArray *) getLoremIpsum {
+    
+    static dispatch_once_t dispatchOnce;
+    static NSArray *contents;
+    
+    dispatch_once(&dispatchOnce, ^{
+    
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"lorem"
+                                                         ofType:@"txt"];
+        NSError *error;
+        NSString *fileContents = [NSString stringWithContentsOfFile:path
+                                                           encoding:NSUTF8StringEncoding
+                                                              error:&error];
+        
+        contents = [fileContents componentsSeparatedByString:@"."];
+                    
+        NSMutableArray *stripped = [[NSMutableArray alloc] init];
+        for (NSString *string in contents) {
+            
+            [stripped addObject:[[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] stringByAppendingString:@"."]];
+        }
+        
+        contents = [NSArray arrayWithArray:stripped];
+    });
+    
+    return contents;
+}
+
 @end

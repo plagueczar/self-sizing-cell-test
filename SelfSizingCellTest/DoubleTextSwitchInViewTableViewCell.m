@@ -11,7 +11,8 @@
 @implementation DoubleTextSwitchInViewTableViewCell
 
 - (void)awakeFromNib {
-    // Initialization code
+    self.lblTitle.text = @"Default title.";
+    self.lblSubtitle.text = @"Default subtitle text is a little longer to try to provoke a resize.";
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -22,6 +23,9 @@
 
 - (void) configureCell:(NSArray *)array
              indexPath:(NSIndexPath *)indexPath {
+    
+//    self.lblTitle.preferredMaxLayoutWidth = CGRectGetWidth(self.lblTitle.frame);
+//    self.lblSubtitle.preferredMaxLayoutWidth = CGRectGetWidth(self.lblSubtitle.frame);
     
     self.lblTitle.text = [array objectAtIndex:indexPath.row * 2];
     self.lblSubtitle.text = [array objectAtIndex:(indexPath.row * 2)+1];

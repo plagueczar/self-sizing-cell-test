@@ -13,6 +13,7 @@
 		646FF7B11A6F0F9F0042E382 /* SwitchInViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646FF7AF1A6F0F9F0042E382 /* SwitchInViewTableViewCell.xib */; };
 		646FF7B51A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 646FF7B31A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.m */; };
 		646FF7B61A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646FF7B41A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.xib */; };
+		646FF7BA1A6F33840042E382 /* MixedTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646FF7B91A6F33840042E382 /* MixedTestTableViewController.m */; };
 		649EA1E71A6E2F6400F93E90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EA1E61A6E2F6400F93E90 /* main.m */; };
 		649EA1EA1A6E2F6400F93E90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EA1E91A6E2F6400F93E90 /* AppDelegate.m */; };
 		649EA1ED1A6E2F6400F93E90 /* SelfSizingCellTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 649EA1EB1A6E2F6400F93E90 /* SelfSizingCellTest.xcdatamodeld */; };
@@ -52,6 +53,8 @@
 		646FF7B21A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTextSwitchInViewTableViewCell.h; sourceTree = "<group>"; };
 		646FF7B31A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTextSwitchInViewTableViewCell.m; sourceTree = "<group>"; };
 		646FF7B41A6F113C0042E382 /* DoubleTextSwitchInViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoubleTextSwitchInViewTableViewCell.xib; sourceTree = "<group>"; };
+		646FF7B81A6F33840042E382 /* MixedTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MixedTestTableViewController.h; path = ../MixedTestTableViewController.h; sourceTree = "<group>"; };
+		646FF7B91A6F33840042E382 /* MixedTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MixedTestTableViewController.m; path = ../MixedTestTableViewController.m; sourceTree = "<group>"; };
 		649EA1E11A6E2F6400F93E90 /* SelfSizingCellTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSizingCellTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		649EA1E51A6E2F6400F93E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		649EA1E61A6E2F6400F93E90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				649EA21C1A6E32DB00F93E90 /* Cells */,
 				649EA2121A6E308A00F93E90 /* TestTableViewController.h */,
 				649EA2131A6E308A00F93E90 /* TestTableViewController.m */,
+				646FF7B81A6F33840042E382 /* MixedTestTableViewController.h */,
+				646FF7B91A6F33840042E382 /* MixedTestTableViewController.m */,
 				649EA2201A6E336500F93E90 /* CellSelectionTableViewController.h */,
 				649EA2211A6E336500F93E90 /* CellSelectionTableViewController.m */,
 				649EA1E81A6E2F6400F93E90 /* AppDelegate.h */,
@@ -307,6 +312,7 @@
 				649EA1EA1A6E2F6400F93E90 /* AppDelegate.m in Sources */,
 				649EA2221A6E336500F93E90 /* CellSelectionTableViewController.m in Sources */,
 				649EA1ED1A6E2F6400F93E90 /* SelfSizingCellTest.xcdatamodeld in Sources */,
+				646FF7BA1A6F33840042E382 /* MixedTestTableViewController.m in Sources */,
 				649EA2141A6E308A00F93E90 /* TestTableViewController.m in Sources */,
 				649EA1F01A6E2F6400F93E90 /* ViewController.m in Sources */,
 				649EA1E71A6E2F6400F93E90 /* main.m in Sources */,
